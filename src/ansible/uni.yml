@@ -1,8 +1,5 @@
 ---
-- hosts: localhost #, net
-  vars:
-    ansible_become_password: u
-
+- hosts: localhost
   roles:
-  - ADB
-#  - dev/ansible-role-ADB
+#  - UniInc/ADB
+  - dev/ansible-role-ADB
